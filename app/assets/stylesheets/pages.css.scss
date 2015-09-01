@@ -155,3 +155,13 @@ ul li {
     background-image: url("http://i61.tinypic.com/2qi5lbr.png");
     background-position: center center;
 }
+
+.banner { 
+	position: relative; overflow: auto; 
+  }
+ .banner li {
+ 	list-style: none; 
+  }
+  .banner ul li { 
+  	float: left; 
+   }
