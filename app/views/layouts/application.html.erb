@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,500,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <%= stylesheet_link_tag    'application', media: 'all'%>
+  <%= javascript_include_tag 'application'%>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="header"> 
+	<div class="container"> 
+		<div class="row"> 
+			<div class="menu col-xs-8"> 
+				<ul> 	
+          <li><%= link_to 'Welcome', root_path %></li> 
+          <li><%= link_to 'Portfolio', pages_portfolio_path  %></li> 
+					<li><a href="https://www.medium.com/@munjalpatel07">Blog</a></li> 
+          <li><%= link_to 'About', pages_about_path %></li> 
+          <li><%= link_to 'Contact', pages_contact_path %></li> 
+				</ul> 
+			</div> 
+		<div class="name col-xs-4"> 
+			<h1>Munjal Patel</h1> 
+		</div> 
+	</div> 
+</div> 
+</div>
+
+<%= yield %>
+
+  <div class="footer"> 
+  <div class="container">
+    <ul class="social_media"> 
+      <li><a class="github" href="https://github.com/munjal83/MyPortfolio">github</a></li>
+      <li><a class="linkedin" href="https://in.linkedin.com/pub/munjal-patel/21/a59/90">linkedin</a></li> 
+      <li><a class="twitter" href="https://twitter.com/munjalpatel07">twitter</a></li> 
+    </ul> 
+    <p>&copy; 2015 Munjal Patel</p> 
+  </div> 
+</div> 
+<script src="//code.jquery.com/jquery-latest.min.js"></script>
+<script src="//unslider.com/unslider.min.js"></script>
+</body>
+</html>
