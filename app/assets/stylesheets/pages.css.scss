@@ -207,3 +207,25 @@ p {
     text-indent: -9999px;
     width: 80px;
 }
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.project, .project:hover {
+    color: #000;
+    margin: 0 0 40px;
+    text-decoration: none;
+    transition: color .5s;
+}
+
+.project p {
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    max-height: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
