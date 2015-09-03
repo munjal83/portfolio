@@ -6,43 +6,18 @@
     margin: 0;
     padding: 0;
 }
-.menu li a {
-    color: #000;
-}
-
-a {
-    color: #337ab7;
-    text-decoration: none;
-}
-
-.menu li {
-    display: inline;
-    line-height: 100px;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 100px;
-    height: 100px;
-    margin: 0 20px 0 0;
-}
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-
-ul, menu, dir {
+div {
     display: block;
-    list-style-type: disc;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 40px;
 }
 
 body, html {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     height: 100%;
+}
+.navbar {
+    margin-bottom: 0px;
+
 }
 
 .name h1 {
@@ -56,12 +31,12 @@ body, html {
 
 h1 {
     display: block;
-    font-size: 2em;
+    //font-size: 2em;
     -webkit-margin-before: 0.67em;
     -webkit-margin-after: 0.67em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
-    font-weight: bold;
+    //font-weight: bold;
 }
 
 .home .jumbotron {
@@ -76,10 +51,10 @@ h1 {
 }
 
 .main h2 {
-    color: #000;
+    //color: #000;
     font-size: 48px;
     line-height: 56px;
-    text-align: right;
+    text-align: center;
     margin-top: 175px;
 }
 
@@ -171,11 +146,11 @@ ul li {
 .main .container {
     margin: 80px 0;
 }
-
 .container {
     padding: 0 200px 0 280px;
     width: 100%;
 }
+
 
 .project, .project:hover {
     color: #000;
@@ -268,12 +243,3 @@ ul li {
     background-position: center center;
 }
 
-.contact .jumbotron {
-    background: url("http://i59.tinypic.com/2zi7fok.jpg") center center;
-    background-size: cover;
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-}

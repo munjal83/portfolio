@@ -10,25 +10,31 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <div class="header"> 
-	<div class="container"> 
-		<div class="row"> 
-			<div class="menu col-xs-8"> 
-				<ul> 	
-          <li><%= link_to 'Welcome', root_path %></li> 
+<nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><%= link_to 'Welcome', root_path %></li> 
           <li><%= link_to 'Portfolio', pages_portfolio_path  %></li> 
 					<li><%= link_to 'Blog', "https://www.medium.com/@munjalpatel07"%></li> 
           <li><%= link_to 'About', pages_about_path %></li> 
           <li><%= link_to 'Contact', pages_contact_path %></li> 
-				</ul> 
-			</div> 
-		<div class="name col-xs-4"> 
-			<h1>Munjal Patel</h1> 
-		</div> 
-	</div> 
-</div> 
-</div>
-
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li><%= link_to 'Munjal Patel', pages_contact_path, class: 'active' %></li>
+          </ul>    
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 <%= yield %>
 
   <div class="footer"> 
