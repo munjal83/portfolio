@@ -76,7 +76,7 @@ h1 {
 }
 
 .main h2 {
-  
+    color: #000;
     font-size: 48px;
     line-height: 56px;
     text-align: right;
@@ -228,4 +228,52 @@ ul li {
 
 .about h2 {
     margin: 0 0 40px;
+}
+
+.contact .row {
+    margin: 80px 0 0;
+}
+
+.contact .col-md-2 a {
+    display: block;
+    height: 64px;
+    margin: 0 auto 40px;
+    text-indent: -9999px;
+    width: 64px;
+}
+
+#linkedin {
+    background-image: url('http://i62.tinypic.com/25pir9z.png');
+    background-position: center center;
+}
+#github {
+    background-image: url('http://i57.tinypic.com/rtor45.png');
+    background-position: center center;
+}
+#twitter {
+    background-image: url('http://i61.tinypic.com/ehcchl.png');
+    background-position: center center;
+}
+
+#facebook {
+    background-image: url('http://i59.tinypic.com/2jdkzg2.png');
+    background-position: center center;
+}
+#instagram {
+    background-image: url('http://i59.tinypic.com/2u6gyrl.png');
+    background-position: center center;
+}
+#email {
+    background-image: url('http://i62.tinypic.com/29qea9u.png');
+    background-position: center center;
+}
+
+.contact .jumbotron {
+    background: url("http://i59.tinypic.com/2zi7fok.jpg") center center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
 }

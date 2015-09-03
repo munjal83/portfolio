@@ -17,7 +17,7 @@
 				<ul> 	
           <li><%= link_to 'Welcome', root_path %></li> 
           <li><%= link_to 'Portfolio', pages_portfolio_path  %></li> 
-					<li><a href="https://www.medium.com/@munjalpatel07">Blog</a></li> 
+					<li><%= link_to 'Blog', "https://www.medium.com/@munjalpatel07"%></li> 
           <li><%= link_to 'About', pages_about_path %></li> 
           <li><%= link_to 'Contact', pages_contact_path %></li> 
 				</ul> 
@@ -34,9 +34,9 @@
   <div class="footer"> 
   <div class="container">
     <ul class="social_media"> 
-      <li><a class="github" href="https://github.com/munjal83/MyPortfolio">github</a></li>
-      <li><a class="linkedin" href="https://in.linkedin.com/pub/munjal-patel/21/a59/90">linkedin</a></li> 
-      <li><a class="twitter" href="https://twitter.com/munjalpatel07">twitter</a></li> 
+      <li><%= link_to 'github', 'https://github.com/munjal83', class: 'github'%></li>
+       <li><%= link_to 'linkedin', 'https://in.linkedin.com/pub/munjal-patel/21/a59/90', class: 'linkedin'%></li>
+       <li><%= link_to 'twitter', 'https://twitter.com/munjalpatel07', class: 'twitter'%></li>
     </ul> 
     <p>&copy; 2015 Munjal Patel</p> 
   </div> 
